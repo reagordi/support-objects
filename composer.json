@@ -1,18 +1,20 @@
 {
-    "name": "reagordi/package-template",
+    "name": "reagordi/support-objects",
     "type": "library",
-    "description": "package-template",
+    "description": "Designed to work with objects",
     "keywords": [
-        "package-template"
+        "support",
+        "framework",
+        "reagordi"
     ],
     "homepage": "https://reagordi.com/",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/reagordi/package-template/issues?state=open",
+        "issues": "https://github.com/reagordi/support-objects/issues?state=open",
         "forum": "https://forum.reagordi.com/",
         "wiki": "https://wiki.reagordi.com/",
         "chat": "https://t.me/reagordi",
-        "source": "https://github.com/reagordi/package-template"
+        "source": "https://github.com/reagordi/support-objects"
     },
     "funding": [
         {
@@ -24,7 +26,7 @@
             "url": "https://github.com/sponsors/reagordi"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^8.2"
@@ -39,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Reagordi\\_____\\": "src"
+            "Reagordi\\Support\\Objects\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Reagordi\\_____\\Tests\\": "tests"
+            "Reagordi\\Support\\Objects\\Tests\\": "tests"
         }
     },
     "config": {
